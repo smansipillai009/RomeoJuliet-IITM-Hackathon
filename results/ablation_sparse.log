@@ -1,0 +1,6 @@
+
+== sparse n=200 (10 paired fresh seeds 7401-7410); difference in expected MSMI/episode vs FINAL
+cell                                                     E[MSMI]  diff vs FINAL [95% CI]        E[mut] R[MSMI] cover  ask
+FINAL (member, lean asks, exact matching)                0.235  (reference)                 3.42   0.50 0.173   196
+starter-equivalent (list-order asks, greedy agreement)   0.237  +0.002 [-0.003,+0.008]      3.42   0.50 0.171   179
+A5b score=agree (simple count)                           0.237  +0.002 [-0.004,+0.009]      3.45   0.60 0.172   197

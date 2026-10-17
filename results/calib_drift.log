@@ -1,0 +1,2 @@
+drift: directional rows 4796 | observed yes 0.346 predicted 0.356 | ECE 0.0106 Brier 0.2201 (constant 0.2264) | pair product predicted 0.133 vs observed mutual 0.136
+  bins (n, predicted, observed): [(959, 0.232, 0.212), (936, 0.322, 0.325), (452, 0.359, 0.338), (1489, 0.38, 0.374), (960, 0.473, 0.463)]

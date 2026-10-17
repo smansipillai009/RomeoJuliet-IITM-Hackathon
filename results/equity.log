@@ -1,0 +1,12 @@
+development  base  servable n=746 never-served 2.4% wait mean 5.9 median 3 p90 15 Gini 0.64
+             longest mean wait among groups with n>=100: g=man 6.3d | groups too small to read: ['g=non_binary', 'z=zone_c', 'z=zone_d']
+development  final servable n=746 never-served 2.9% wait mean 5.2 median 2 p90 14 Gini 0.67
+             longest mean wait among groups with n>=100: g=man 5.9d | groups too small to read: ['g=non_binary', 'z=zone_c', 'z=zone_d']
+cold_start   base  servable n=658 never-served 1.4% wait mean 8.2 median 6 p90 18 Gini 0.55
+             longest mean wait among groups with n>=100: age=<30 8.9d | groups too small to read: ['g=non_binary', 'z=zone_c', 'z=zone_d']
+cold_start   final servable n=658 never-served 2.4% wait mean 6.6 median 5 p90 16 Gini 0.58
+             longest mean wait among groups with n>=100: z=zone_b 7.9d | groups too small to read: ['g=non_binary', 'z=zone_c', 'z=zone_d']
+shift        base  servable n=746 never-served 2.1% wait mean 6.0 median 3 p90 15 Gini 0.64
+             longest mean wait among groups with n>=100: g=man 6.5d | groups too small to read: ['g=non_binary', 'z=zone_c', 'z=zone_d']
+shift        final servable n=746 never-served 2.7% wait mean 5.2 median 2 p90 14 Gini 0.66
+             longest mean wait among groups with n>=100: g=man 6.0d | groups too small to read: ['g=non_binary', 'z=zone_c', 'z=zone_d']

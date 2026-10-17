@@ -1,0 +1,332 @@
+{
+ "development/base": {
+  "n": 746,
+  "never_served": 0.024128686327077747,
+  "mean_wait": 5.888736263736264,
+  "median_wait": 3.0,
+  "p90_wait": 15.0,
+  "wait_gini": 0.6390675745994151,
+  "groups": {
+   "g=man": {
+    "n": 340,
+    "never_served": 0.03529411764705882,
+    "mean_wait": 6.304878048780488
+   },
+   "g=non_binary": {
+    "n": 61,
+    "never_served": 0.0,
+    "mean_wait": 4.344262295081967
+   },
+   "g=woman": {
+    "n": 345,
+    "never_served": 0.017391304347826087,
+    "mean_wait": 5.76401179941003
+   },
+   "age=30+": {
+    "n": 457,
+    "never_served": 0.0175054704595186,
+    "mean_wait": 5.913140311804009
+   },
+   "age=<30": {
+    "n": 289,
+    "never_served": 0.03460207612456748,
+    "mean_wait": 5.849462365591398
+   },
+   "z=zone_a": {
+    "n": 545,
+    "never_served": 0.03302752293577982,
+    "mean_wait": 5.9297912713472485
+   },
+   "z=zone_b": {
+    "n": 144,
+    "never_served": 0.0,
+    "mean_wait": 5.895833333333333
+   },
+   "z=zone_c": {
+    "n": 43,
+    "never_served": 0.0,
+    "mean_wait": 5.1395348837209305
+   },
+   "z=zone_d": {
+    "n": 14,
+    "never_served": 0.0,
+    "mean_wait": 6.571428571428571
+   }
+  }
+ },
+ "development/final": {
+  "n": 746,
+  "never_served": 0.029490616621983913,
+  "mean_wait": 5.167127071823204,
+  "median_wait": 2.0,
+  "p90_wait": 13.700000000000045,
+  "wait_gini": 0.6670598755613841,
+  "groups": {
+   "g=man": {
+    "n": 340,
+    "never_served": 0.03235294117647059,
+    "mean_wait": 5.866261398176292
+   },
+   "g=non_binary": {
+    "n": 61,
+    "never_served": 0.0,
+    "mean_wait": 3.2459016393442623
+   },
+   "g=woman": {
+    "n": 345,
+    "never_served": 0.03188405797101449,
+    "mean_wait": 4.8293413173652695
+   },
+   "age=30+": {
+    "n": 457,
+    "never_served": 0.03282275711159737,
+    "mean_wait": 5.0656108597285066
+   },
+   "age=<30": {
+    "n": 289,
+    "never_served": 0.02422145328719723,
+    "mean_wait": 5.326241134751773
+   },
+   "z=zone_a": {
+    "n": 545,
+    "never_served": 0.03853211009174312,
+    "mean_wait": 4.912213740458015
+   },
+   "z=zone_b": {
+    "n": 144,
+    "never_served": 0.006944444444444444,
+    "mean_wait": 5.4125874125874125
+   },
+   "z=zone_c": {
+    "n": 43,
+    "never_served": 0.0,
+    "mean_wait": 7.395348837209302
+   },
+   "z=zone_d": {
+    "n": 14,
+    "never_served": 0.0,
+    "mean_wait": 5.357142857142857
+   }
+  }
+ },
+ "cold_start/base": {
+  "n": 658,
+  "never_served": 0.013677811550151976,
+  "mean_wait": 8.16486902927581,
+  "median_wait": 6,
+  "p90_wait": 18.200000000000045,
+  "wait_gini": 0.5502180688800486,
+  "groups": {
+   "g=man": {
+    "n": 300,
+    "never_served": 0.006666666666666667,
+    "mean_wait": 8.167785234899329
+   },
+   "g=non_binary": {
+    "n": 59,
+    "never_served": 0.03389830508474576,
+    "mean_wait": 7.719298245614035
+   },
+   "g=woman": {
+    "n": 299,
+    "never_served": 0.016722408026755852,
+    "mean_wait": 8.248299319727892
+   },
+   "age=30+": {
+    "n": 437,
+    "never_served": 0.018306636155606407,
+    "mean_wait": 7.7622377622377625
+   },
+   "age=<30": {
+    "n": 221,
+    "never_served": 0.004524886877828055,
+    "mean_wait": 8.95
+   },
+   "z=zone_a": {
+    "n": 499,
+    "never_served": 0.012024048096192385,
+    "mean_wait": 7.762677484787019
+   },
+   "z=zone_b": {
+    "n": 120,
+    "never_served": 0.025,
+    "mean_wait": 8.82905982905983
+   },
+   "z=zone_c": {
+    "n": 30,
+    "never_served": 0.0,
+    "mean_wait": 12.666666666666666
+   },
+   "z=zone_d": {
+    "n": 9,
+    "never_served": 0.0,
+    "mean_wait": 6.555555555555555
+   }
+  }
+ },
+ "cold_start/final": {
+  "n": 658,
+  "never_served": 0.0243161094224924,
+  "mean_wait": 6.616822429906542,
+  "median_wait": 5.0,
+  "p90_wait": 16.0,
+  "wait_gini": 0.5814801614540249,
+  "groups": {
+   "g=man": {
+    "n": 300,
+    "never_served": 0.03,
+    "mean_wait": 6.549828178694158
+   },
+   "g=non_binary": {
+    "n": 59,
+    "never_served": 0.0,
+    "mean_wait": 6.661016949152542
+   },
+   "g=woman": {
+    "n": 299,
+    "never_served": 0.023411371237458192,
+    "mean_wait": 6.674657534246576
+   },
+   "age=30+": {
+    "n": 437,
+    "never_served": 0.02517162471395881,
+    "mean_wait": 6.262910798122066
+   },
+   "age=<30": {
+    "n": 221,
+    "never_served": 0.02262443438914027,
+    "mean_wait": 7.314814814814815
+   },
+   "z=zone_a": {
+    "n": 499,
+    "never_served": 0.026052104208416832,
+    "mean_wait": 6.2181069958847734
+   },
+   "z=zone_b": {
+    "n": 120,
+    "never_served": 0.025,
+    "mean_wait": 7.931623931623932
+   },
+   "z=zone_c": {
+    "n": 30,
+    "never_served": 0.0,
+    "mean_wait": 8.033333333333333
+   },
+   "z=zone_d": {
+    "n": 9,
+    "never_served": 0.0,
+    "mean_wait": 6.333333333333333
+   }
+  }
+ },
+ "shift/base": {
+  "n": 746,
+  "never_served": 0.021447721179624665,
+  "mean_wait": 5.971232876712329,
+  "median_wait": 3.0,
+  "p90_wait": 15.0,
+  "wait_gini": 0.6392225815271192,
+  "groups": {
+   "g=man": {
+    "n": 340,
+    "never_served": 0.029411764705882353,
+    "mean_wait": 6.509090909090909
+   },
+   "g=non_binary": {
+    "n": 61,
+    "never_served": 0.0,
+    "mean_wait": 4.344262295081967
+   },
+   "g=woman": {
+    "n": 345,
+    "never_served": 0.017391304347826087,
+    "mean_wait": 5.740412979351032
+   },
+   "age=30+": {
+    "n": 457,
+    "never_served": 0.01312910284463895,
+    "mean_wait": 6.028824833702883
+   },
+   "age=<30": {
+    "n": 289,
+    "never_served": 0.03460207612456748,
+    "mean_wait": 5.878136200716846
+   },
+   "z=zone_a": {
+    "n": 545,
+    "never_served": 0.029357798165137616,
+    "mean_wait": 6.058601134215501
+   },
+   "z=zone_b": {
+    "n": 144,
+    "never_served": 0.0,
+    "mean_wait": 5.840277777777778
+   },
+   "z=zone_c": {
+    "n": 43,
+    "never_served": 0.0,
+    "mean_wait": 5.1395348837209305
+   },
+   "z=zone_d": {
+    "n": 14,
+    "never_served": 0.0,
+    "mean_wait": 6.571428571428571
+   }
+  }
+ },
+ "shift/final": {
+  "n": 746,
+  "never_served": 0.02680965147453083,
+  "mean_wait": 5.169421487603306,
+  "median_wait": 2.0,
+  "p90_wait": 14.0,
+  "wait_gini": 0.6620022622856719,
+  "groups": {
+   "g=man": {
+    "n": 340,
+    "never_served": 0.026470588235294117,
+    "mean_wait": 6.0120845921450154
+   },
+   "g=non_binary": {
+    "n": 61,
+    "never_served": 0.0,
+    "mean_wait": 3.2131147540983607
+   },
+   "g=woman": {
+    "n": 345,
+    "never_served": 0.03188405797101449,
+    "mean_wait": 4.691616766467066
+   },
+   "age=30+": {
+    "n": 457,
+    "never_served": 0.024070021881838075,
+    "mean_wait": 5.190582959641255
+   },
+   "age=<30": {
+    "n": 289,
+    "never_served": 0.031141868512110725,
+    "mean_wait": 5.135714285714286
+   },
+   "z=zone_a": {
+    "n": 545,
+    "never_served": 0.03669724770642202,
+    "mean_wait": 4.866666666666666
+   },
+   "z=zone_b": {
+    "n": 144,
+    "never_served": 0.0,
+    "mean_wait": 5.590277777777778
+   },
+   "z=zone_c": {
+    "n": 43,
+    "never_served": 0.0,
+    "mean_wait": 7.395348837209302
+   },
+   "z=zone_d": {
+    "n": 14,
+    "never_served": 0.0,
+    "mean_wait": 5.357142857142857
+   }
+  }
+ }
+}

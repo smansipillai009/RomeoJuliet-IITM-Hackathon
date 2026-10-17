@@ -1,0 +1,20 @@
+
+== development n=200 (12 paired fresh seeds): expected MSMI/episode, difference vs shipped default "fit"
+  fit     E[MSMI] 0.972  (reference)                E[mutual] 13.54  realized MSMI 1.33
+  member  E[MSMI] 0.985  +0.013 [-0.009,+0.035]     E[mutual] 13.76  realized MSMI 1.25
+  agree   E[MSMI] 0.981  +0.009 [-0.036,+0.048]     E[mutual] 13.72  realized MSMI 1.33
+
+== shift n=200 (12 paired fresh seeds): expected MSMI/episode, difference vs shipped default "fit"
+  fit     E[MSMI] 0.850  (reference)                E[mutual] 12.19  realized MSMI 1.00
+  member  E[MSMI] 0.859  +0.009 [-0.016,+0.034]     E[mutual] 12.40  realized MSMI 1.17
+  agree   E[MSMI] 0.872  +0.021 [-0.021,+0.058]     E[mutual] 12.59  realized MSMI 0.92
+
+== drift n=200 (12 paired fresh seeds): expected MSMI/episode, difference vs shipped default "fit"
+  fit     E[MSMI] 0.923  (reference)                E[mutual] 12.83  realized MSMI 1.33
+  member  E[MSMI] 0.937  +0.015 [+0.001,+0.028]     E[mutual] 13.06  realized MSMI 1.17
+  agree   E[MSMI] 0.925  +0.003 [-0.030,+0.030]     E[mutual] 12.93  realized MSMI 1.25
+
+== cold_start n=200 (12 paired fresh seeds): expected MSMI/episode, difference vs shipped default "fit"
+  fit     E[MSMI] 0.715  (reference)                E[mutual] 10.25  realized MSMI 0.67
+  member  E[MSMI] 0.710  -0.005 [-0.027,+0.023]     E[mutual] 10.22  realized MSMI 0.50
+  agree   E[MSMI] 0.721  +0.006 [-0.022,+0.036]     E[mutual] 10.31  realized MSMI 0.75

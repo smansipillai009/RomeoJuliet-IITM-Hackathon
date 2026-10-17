@@ -1,0 +1,6 @@
+
+== delayed n=200 (10 paired fresh seeds 7501-7510); difference in expected MSMI/episode vs FINAL
+cell                                                     E[MSMI]  diff vs FINAL [95% CI]        E[mut] R[MSMI] cover  ask
+FINAL (member, lean asks, exact matching)                0.799  (reference)                11.29   0.90 0.372   281
+starter-equivalent (list-order asks, greedy agreement)   0.787  -0.011 [-0.058,+0.031]     11.10   1.20 0.372   192
+A5b score=agree (simple count)                           0.830  +0.032 [-0.002,+0.068]     11.88   0.20 0.377   286
