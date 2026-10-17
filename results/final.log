@@ -1,0 +1,10 @@
+nohup: ignoring input
+{"seed": 101, "variant": "development", "valid": true, "msmi": 1}
+{"seed": 102, "variant": "development", "valid": true, "msmi": 2}
+{"seed": 103, "variant": "development", "valid": true, "msmi": 0}
+{"seed": 101, "variant": "sparse", "valid": true, "msmi": 0}
+{"seed": 102, "variant": "sparse", "valid": true, "msmi": 0}
+{"seed": 103, "variant": "sparse", "valid": true, "msmi": 0}
+{"seed": 101, "variant": "cold_start", "valid": true, "msmi": 0}
+{"seed": 102, "variant": "cold_start", "valid": true, "msmi": 0}
+{"seed": 103, "variant": "cold_start", "valid": true, "msmi": 0}
