@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 RomeoJulietLove
+Copyright (c) 2026 LaLaLand
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,5 +20,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-The supplied synthetic records have the additional provenance conditions in
-DATA_LICENSE.md. This licence does not apply automatically to student submissions.
+This licence covers the team's own code and report. The organisers' kit files
+are governed by KIT_LICENSE, and the supplied synthetic records by DATA_LICENSE.md.

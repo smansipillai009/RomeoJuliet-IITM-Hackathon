@@ -1,0 +1,5 @@
+# Analysis and training tooling ONLY. The submitted policy (policy.py) and its container need none of these.
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+networkx==3.6.1   # verification only: checks the stdlib exact matcher against a reference implementation
